@@ -5,8 +5,9 @@
   "compileOnSave": true,
   "strict": true,
   "compilerOptions": {
+    "lib": ["ES2015", "es6", "es7"],
     "module": "commonjs",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "@*": ["src/*"]
     },

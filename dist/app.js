@@ -1,22 +1,18 @@
 "use strict";
 
-var _moduleAlias = require("module-alias");
-
 var _koa = _interopRequireDefault(require("koa"));
-
-var _config = _interopRequireDefault(require("@config"));
 
 var _awilix = require("awilix");
 
 var _awilixKoa = require("awilix-koa");
-
-var _ErrorHandler = _interopRequireDefault(require("@middleware/ErrorHandler"));
 
 var _koaBodyparser = _interopRequireDefault(require("koa-bodyparser"));
 
 var _log4js = require("log4js");
 
 var _cors = _interopRequireDefault(require("@koa/cors"));
+
+var _moduleAlias = require("module-alias");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29,9 +25,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   '@models': `${__dirname}/models`,
   '@shared': `${__dirname}/shared`
 });
+
+const config = require('@config').default;
+
+const ErrorHandler = require('@middleware/ErrorHandler').default;
+
+console.log(ErrorHandler.error);
 const {
   port
-} = _config.default;
+} = config;
 (0, _log4js.configure)({
   appenders: {
     cheese: {
@@ -60,9 +62,7 @@ container.loadModules([`${__dirname}/models/*.ts`], {
   }
 });
 app.use((0, _awilixKoa.scopePerRequest)(container));
-
-_ErrorHandler.default.error(app, logger);
-
+ErrorHandler.error(app, logger);
 app.use((0, _awilixKoa.loadControllers)(`${__dirname}/routes/*.ts`));
 app.listen(port, () => {
   console.log(`server start at localhost:${port}`);

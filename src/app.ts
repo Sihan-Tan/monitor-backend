@@ -1,5 +1,11 @@
+import Koa from 'koa';
+import { createContainer, Lifetime } from 'awilix';
+import { scopePerRequest, loadControllers } from 'awilix-koa';
+import bodyParser from 'koa-bodyparser';
+import { configure, getLogger } from 'log4js';
+import cors from '@koa/cors';
 import { addAliases } from 'module-alias';
-/* eslint-disable */
+
 addAliases({
   '@root': __dirname,
   '@config': `${__dirname}/config`,
@@ -9,15 +15,8 @@ addAliases({
   '@models': `${__dirname}/models`,
   '@shared': `${__dirname}/shared`,
 });
-import Koa from 'koa';
-import config from '@config';
-import { createContainer, Lifetime } from 'awilix';
-import { scopePerRequest, loadControllers } from 'awilix-koa';
-import ErrorHandler from '@middleware/ErrorHandler';
-import bodyParser from 'koa-bodyparser';
-import { configure, getLogger } from 'log4js';
-import cors from '@koa/cors';
-/* eslint-enable */
+const config = require('@config').default;
+const ErrorHandler = require('@middleware/ErrorHandler').default;
 
 const { port } = config;
 

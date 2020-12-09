@@ -6,10 +6,11 @@ const del = require('del');
 
 const entry = ['src/**/*', '!src/logs/**'];
 const lintEntry = ['src/**/*.ts'];
+const copyEntry = ['pm2.json', 'package.json'];
 const cleanEntry = ['./typings'];
 
 async function clean() {
-  return await del(['dist/**/*']);
+  return await del(['dist/**/*', '!dist/node_modules/**']);
 }
 
 function buildLint() {
@@ -37,7 +38,7 @@ function buildProd() {
 }
 
 function copyFile() {
-  return gulp.src('pm2.json').pipe(copy('dist')).pipe(gulp.dest('dist'));
+  return gulp.src(copyEntry).pipe(copy('dist'));
 }
 
 let prod = gulp.series(clean, buildLint, buildProd, copyFile);
