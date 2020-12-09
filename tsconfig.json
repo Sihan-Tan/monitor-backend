@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "include": ["src/**/*.ts"],
+  "exclude": ["gulpfile.js", "*.json"],
+  "compileOnSave": true,
+  "strict": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": "./",
+    "paths": {
+      "@*": ["src/*"]
+    },
+    "types": ["node"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./typings"],
+    "esModuleInterop": true
+  }
+}

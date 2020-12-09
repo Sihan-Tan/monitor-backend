@@ -1,0 +1,144 @@
+[2020-12-09T11:17:25.350] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    dnsTime: 0,
+    tcpTime: 0,
+    whiteTime: 10,
+    domTime: -1607483845076,
+    pageLoadedTime: -1607483845076,
+    readyTime: 1,
+    redirectTime: 0,
+    unloadTime: 1,
+    requestTime: 0,
+    analyzeTime: 0
+  }
+}
+[2020-12-09T12:21:29.657] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    dnsTime: 0,
+    tcpTime: 0,
+    whiteTime: 49,
+    domTime: -1607487689367,
+    pageLoadedTime: -1607487689367,
+    readyTime: 2,
+    redirectTime: 0,
+    unloadTime: 0,
+    requestTime: 1,
+    analyzeTime: 0
+  }
+}
+[2020-12-09T12:38:53.914] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    redirectCount: 0,
+    redirectTime: 0,
+    dnsTime: 0,
+    tcpTime: 0,
+    sslTime: 0,
+    ttfbTime: 2,
+    dataTime: 1,
+    domAnalyzeTime: -1607488732193,
+    resourceTime: 0,
+    whiteTime: 25,
+    reactiveTime: -1607488732168,
+    domRenderedTime: -1607488732168,
+    readyTime: -1607488732168,
+    pageLoadedTime: -1607488732168,
+    pageAnalyzeDomTime: 0,
+    unloadTime: 1
+  }
+}
+[2020-12-09T12:39:59.216] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    redirectCount: 0,
+    redirectTime: 0,
+    dnsTime: 0,
+    tcpTime: 0,
+    sslTime: 0,
+    ttfbTime: 1,
+    dataTime: 1,
+    domAnalyzeTime: -1607488798117,
+    resourceTime: 0,
+    whiteTime: 31,
+    reactiveTime: -1607488798086,
+    domRenderedTime: -1607488798086,
+    readyTime: -1607488798086,
+    pageLoadedTime: -1607488798086,
+    pageAnalyzeDomTime: 0,
+    unloadTime: 1
+  }
+}
+[2020-12-09T14:15:03.558] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    redirectCount: 0,
+    redirectTime: 0,
+    dnsTime: 0,
+    tcpTime: 0,
+    sslTime: 0,
+    ttfbTime: 685,
+    dataTime: 1,
+    domAnalyzeTime: -1607494503422,
+    resourceTime: 0,
+    whiteTime: 696,
+    reactiveTime: -1607494502726,
+    domRenderedTime: -1607494502726,
+    readyTime: -1607494502726,
+    pageLoadedTime: -1607494502726,
+    pageAnalyzeDomTime: 0,
+    unloadTime: 0
+  }
+}
+[2020-12-09T14:17:01.050] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    redirectCount: 0,
+    redirectTime: 0,
+    dnsTime: 0,
+    tcpTime: 0,
+    sslTime: 0,
+    ttfbTime: 3,
+    dataTime: 2,
+    domAnalyzeTime: -1607494619618,
+    resourceTime: 0,
+    whiteTime: 34,
+    reactiveTime: -1607494619584,
+    domRenderedTime: -1607494619584,
+    readyTime: -1607494619584,
+    pageLoadedTime: -1607494619584,
+    pageAnalyzeDomTime: 0,
+    unloadTime: 0
+  }
+}

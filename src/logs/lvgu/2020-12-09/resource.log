@@ -1,0 +1,216 @@
+[2020-12-09T11:17:25.353] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: [
+    {
+      name: 'http://localhost:9528/kangaroo-monitor.js',
+      entryType: 'resource',
+      startTime: 49.750000005587935,
+      duration: 35.685000009834766,
+      initiatorType: 'script',
+      nextHopProtocol: 'http/1.1',
+      workerStart: 0,
+      redirectStart: 0,
+      redirectEnd: 0,
+      fetchStart: 49.750000005587935,
+      domainLookupStart: 49.750000005587935,
+      domainLookupEnd: 49.750000005587935,
+      connectStart: 49.750000005587935,
+      connectEnd: 49.750000005587935,
+      secureConnectionStart: 0,
+      requestStart: 72.61999999172986,
+      responseStart: 76.71500003198162,
+      responseEnd: 85.4350000154227,
+      transferSize: 12112,
+      encodedBodySize: 11867,
+      decodedBodySize: 11867,
+      serverTiming: [],
+      workerTiming: []
+    },
+    entries: undefined
+  ]
+}
+[2020-12-09T12:21:29.662] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: [
+    {
+      name: 'http://localhost:9528/kangaroo-monitor.js',
+      entryType: 'resource',
+      startTime: 87.40000001853332,
+      duration: 27.910000004339963,
+      initiatorType: 'script',
+      nextHopProtocol: 'http/1.1',
+      workerStart: 0,
+      redirectStart: 0,
+      redirectEnd: 0,
+      fetchStart: 87.40000001853332,
+      domainLookupStart: 87.40000001853332,
+      domainLookupEnd: 87.40000001853332,
+      connectStart: 87.40000001853332,
+      connectEnd: 87.40000001853332,
+      secureConnectionStart: 0,
+      requestStart: 105.7499999878928,
+      responseStart: 109.05500000808388,
+      responseEnd: 115.31000002287328,
+      transferSize: 12112,
+      encodedBodySize: 11867,
+      decodedBodySize: 11867,
+      serverTiming: [],
+      workerTiming: []
+    },
+    entries: undefined
+  ]
+}
+[2020-12-09T12:38:53.917] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: [
+    {
+      name: 'http://localhost:9528/kangaroo-monitor.js',
+      entryType: 'resource',
+      startTime: 56.809999980032444,
+      duration: 1680.709999985993,
+      initiatorType: 'script',
+      nextHopProtocol: 'http/1.1',
+      workerStart: 0,
+      redirectStart: 0,
+      redirectEnd: 0,
+      fetchStart: 56.809999980032444,
+      domainLookupStart: 56.809999980032444,
+      domainLookupEnd: 56.809999980032444,
+      connectStart: 56.809999980032444,
+      connectEnd: 56.809999980032444,
+      secureConnectionStart: 0,
+      requestStart: 82.1699999505654,
+      responseStart: 1736.3599999807775,
+      responseEnd: 1737.5199999660254,
+      transferSize: 12714,
+      encodedBodySize: 12469,
+      decodedBodySize: 12469,
+      serverTiming: [],
+      workerTiming: []
+    },
+    entries: undefined
+  ]
+}
+[2020-12-09T12:39:59.218] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: [
+    {
+      name: 'http://localhost:9528/kangaroo-monitor.js',
+      entryType: 'resource',
+      startTime: 126.52500002877787,
+      duration: 991.1250000004657,
+      initiatorType: 'script',
+      nextHopProtocol: 'http/1.1',
+      workerStart: 0,
+      redirectStart: 0,
+      redirectEnd: 0,
+      fetchStart: 126.52500002877787,
+      domainLookupStart: 126.52500002877787,
+      domainLookupEnd: 126.52500002877787,
+      connectStart: 126.52500002877787,
+      connectEnd: 126.52500002877787,
+      secureConnectionStart: 0,
+      requestStart: 147.1900000469759,
+      responseStart: 1116.5100000216626,
+      responseEnd: 1117.6500000292435,
+      transferSize: 12713,
+      encodedBodySize: 12468,
+      decodedBodySize: 12468,
+      serverTiming: [],
+      workerTiming: []
+    },
+    entries: undefined
+  ]
+}
+[2020-12-09T14:15:03.561] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: [
+    {
+      name: 'http://localhost:9528/kangaroo-monitor.js',
+      entryType: 'resource',
+      startTime: 714.3449999857694,
+      duration: 25.090000010095537,
+      initiatorType: 'script',
+      nextHopProtocol: 'http/1.1',
+      workerStart: 0,
+      redirectStart: 0,
+      redirectEnd: 0,
+      fetchStart: 714.3449999857694,
+      domainLookupStart: 714.3449999857694,
+      domainLookupEnd: 714.3449999857694,
+      connectStart: 714.3449999857694,
+      connectEnd: 714.3449999857694,
+      secureConnectionStart: 0,
+      requestStart: 730.9499999973923,
+      responseStart: 733.1450000056066,
+      responseEnd: 739.4349999958649,
+      transferSize: 12713,
+      encodedBodySize: 12468,
+      decodedBodySize: 12468,
+      serverTiming: [],
+      workerTiming: []
+    },
+    entries: undefined
+  ]
+}
+[2020-12-09T14:17:01.054] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: [
+    {
+      name: 'http://localhost:9528/kangaroo-monitor.js',
+      entryType: 'resource',
+      startTime: 140.99500002339482,
+      duration: 1298.8649999606423,
+      initiatorType: 'script',
+      nextHopProtocol: 'http/1.1',
+      workerStart: 0,
+      redirectStart: 0,
+      redirectEnd: 0,
+      fetchStart: 140.99500002339482,
+      domainLookupStart: 140.99500002339482,
+      domainLookupEnd: 140.99500002339482,
+      connectStart: 140.99500002339482,
+      connectEnd: 140.99500002339482,
+      secureConnectionStart: 0,
+      requestStart: 163.42499997699633,
+      responseStart: 1438.2800000021234,
+      responseEnd: 1439.8599999840371,
+      transferSize: 12713,
+      encodedBodySize: 12468,
+      decodedBodySize: 12468,
+      serverTiming: [],
+      workerTiming: []
+    },
+    entries: undefined
+  ]
+}

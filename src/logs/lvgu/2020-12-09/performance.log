@@ -1,0 +1,285 @@
+[2020-12-09T11:17:26.330] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'TTFB',
+    value: 9.710000013001263,
+    delta: 9.710000013001263,
+    entries: '[{"name":"http://localhost:9528/#/team/edit/35","entryType":"navigation","startTime":0,"duration":1244.570000038948,"initiatorType":"navigation","nextHopProtocol":"http/1.1","workerStart":0,"redirectStart":0,"redirectEnd":0,"fetchStart":1.3899999903514981,"domainLookupStart":1.3899999903514981,"domainLookupEnd":1.3899999903514981,"connectStart":1.3899999903514981,"connectEnd":1.3899999903514981,"secureConnectionStart":0,"requestStart":7.7600000076927245,"responseStart":9.710000013001263,"responseEnd":10.325000039301813,"transferSize":1133,"encodedBodySize":904,"decodedBodySize":904,"serverTiming":[],"workerTiming":[],"unloadEventStart":14.035000000149012,"unloadEventEnd":14.804999984335154,"domInteractive":856.3149999827147,"domContentLoadedEventStart":856.339999998454,"domContentLoadedEventEnd":856.9550000247546,"domComplete":1243.3750000200234,"loadEventStart":1243.4699999867007,"loadEventEnd":1244.570000038948,"type":"reload","redirectCount":0}]',
+    id: 'v1-1607483845312-3363366446944'
+  }
+}
+[2020-12-09T11:17:26.347] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'FCP',
+    value: 939.539999992121,
+    delta: 939.539999992121,
+    entries: '[{"name":"first-contentful-paint","entryType":"paint","startTime":939.539999992121,"duration":0}]',
+    id: 'v1-1607483845311-5103142094898'
+  }
+}
+[2020-12-09T11:18:20.438] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'CLS',
+    value: 0,
+    delta: 0,
+    entries: '[]',
+    id: 'v1-1607483845311-6656524939188'
+  }
+}
+[2020-12-09T11:18:20.441] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'LCP',
+    value: 939.539,
+    delta: 939.539,
+    entries: '[{"name":"","entryType":"largest-contentful-paint","startTime":939.539,"duration":0,"size":6708,"renderTime":939.539,"loadTime":0,"id":"","url":"","element":{}},{"name":"","entryType":"largest-contentful-paint","startTime":939.539,"duration":0,"size":6708,"renderTime":939.539,"loadTime":0,"id":"","url":"","element":{}},{"name":"","entryType":"largest-contentful-paint","startTime":939.539,"duration":0,"size":6708,"renderTime":939.539,"loadTime":0,"id":"","url":"","element":{}}]',
+    id: 'v1-1607483845311-6252873642262'
+  }
+}
+[2020-12-09T12:21:30.933] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'FCP',
+    value: 1159.5199999865144,
+    delta: 1159.5199999865144,
+    entries: '[{"name":"first-contentful-paint","entryType":"paint","startTime":1159.5199999865144,"duration":0}]',
+    id: 'v1-1607487689570-1762902500616'
+  }
+}
+[2020-12-09T12:21:30.946] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'TTFB',
+    value: 49.15500001516193,
+    delta: 49.15500001516193,
+    entries: '[{"name":"http://localhost:9528/#/team/edit/35","entryType":"navigation","startTime":0,"duration":1567.7450000075623,"initiatorType":"navigation","nextHopProtocol":"http/1.1","workerStart":0,"redirectStart":0,"redirectEnd":0,"fetchStart":2.585000009275973,"domainLookupStart":2.585000009275973,"domainLookupEnd":2.585000009275973,"connectStart":2.585000009275973,"connectEnd":2.585000009275973,"secureConnectionStart":0,"requestStart":8.60499998088926,"responseStart":49.15500001516193,"responseEnd":49.80000003706664,"transferSize":1133,"encodedBodySize":904,"decodedBodySize":904,"serverTiming":[],"workerTiming":[],"unloadEventStart":53.17500000819564,"unloadEventEnd":53.46999998437241,"domInteractive":1062.740000023041,"domContentLoadedEventStart":1062.7800000365824,"domContentLoadedEventEnd":1063.7899999856018,"domComplete":1566.7000000248663,"loadEventStart":1566.770000034012,"loadEventEnd":1567.7450000075623,"type":"reload","redirectCount":0}]',
+    id: 'v1-1607487689570-1042774602374'
+  }
+}
+[2020-12-09T12:26:44.072] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'CLS',
+    value: 0,
+    delta: 0,
+    entries: '[]',
+    id: 'v1-1607487689569-6968678208928'
+  }
+}
+[2020-12-09T12:26:44.076] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'LCP',
+    value: 1159.519,
+    delta: 1159.519,
+    entries: '[{"name":"","entryType":"largest-contentful-paint","startTime":1159.519,"duration":0,"size":6708,"renderTime":1159.519,"loadTime":0,"id":"","url":"","element":{}},{"name":"","entryType":"largest-contentful-paint","startTime":1159.519,"duration":0,"size":6708,"renderTime":1159.519,"loadTime":0,"id":"","url":"","element":{}},{"name":"","entryType":"largest-contentful-paint","startTime":1159.519,"duration":0,"size":6708,"renderTime":1159.519,"loadTime":0,"id":"","url":"","element":{}}]',
+    id: 'v1-1607487689570-9949896089032'
+  }
+}
+[2020-12-09T12:38:54.889] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'FCP',
+    value: 2442.849999992177,
+    delta: 2442.849999992177,
+    entries: '[{"name":"first-contentful-paint","entryType":"paint","startTime":2442.849999992177,"duration":0}]',
+    id: 'v1-1607488733911-9729095608636'
+  }
+}
+[2020-12-09T12:38:55.075] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'TTFB',
+    value: 23.499999952036887,
+    delta: 23.499999952036887,
+    entries: '[{"name":"http://localhost:9528/#/team/edit/35","entryType":"navigation","startTime":0,"duration":2900.9899999946356,"initiatorType":"navigation","nextHopProtocol":"http/1.1","workerStart":0,"redirectStart":0,"redirectEnd":0,"fetchStart":16.454999975394458,"domainLookupStart":16.454999975394458,"domainLookupEnd":16.454999975394458,"connectStart":16.454999975394458,"connectEnd":16.454999975394458,"secureConnectionStart":0,"requestStart":22.224999964237213,"responseStart":23.499999952036887,"responseEnd":24.745000002440065,"transferSize":1133,"encodedBodySize":904,"decodedBodySize":904,"serverTiming":[],"workerTiming":[],"unloadEventStart":30.244999972637743,"unloadEventEnd":30.879999976605177,"domInteractive":2399.3749999790452,"domContentLoadedEventStart":2399.409999954514,"domContentLoadedEventEnd":2399.974999949336,"domComplete":2899.894999980461,"loadEventStart":2899.9849999672733,"loadEventEnd":2900.9899999946356,"type":"reload","redirectCount":0}]',
+    id: 'v1-1607488733911-1734108961757'
+  }
+}
+[2020-12-09T12:39:58.187] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'CLS',
+    value: 0,
+    delta: 0,
+    entries: '[]',
+    id: 'v1-1607488733911-3638851704033'
+  }
+}
+[2020-12-09T12:39:58.194] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'LCP',
+    value: 2442.849,
+    delta: 2442.849,
+    entries: '[{"name":"","entryType":"largest-contentful-paint","startTime":2442.849,"duration":0,"size":6708,"renderTime":2442.849,"loadTime":0,"id":"","url":"","element":{}}]',
+    id: 'v1-1607488733911-4032833586571'
+  }
+}
+[2020-12-09T12:40:00.287] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'FCP',
+    value: 1923.8050000276417,
+    delta: 1923.8050000276417,
+    entries: '[{"name":"first-contentful-paint","entryType":"paint","startTime":1923.8050000276417,"duration":0}]',
+    id: 'v1-1607488799211-3395512472094'
+  }
+}
+[2020-12-09T12:40:00.517] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'TTFB',
+    value: 30.805000045802444,
+    delta: 30.805000045802444,
+    entries: '[{"name":"http://localhost:9528/#/team/edit/35","entryType":"navigation","startTime":0,"duration":2426.465000025928,"initiatorType":"navigation","nextHopProtocol":"http/1.1","workerStart":0,"redirectStart":0,"redirectEnd":0,"fetchStart":20.680000016000122,"domainLookupStart":20.680000016000122,"domainLookupEnd":20.680000016000122,"connectStart":20.680000016000122,"connectEnd":20.680000016000122,"secureConnectionStart":0,"requestStart":29.41000001737848,"responseStart":30.805000045802444,"responseEnd":31.510000000707805,"transferSize":1133,"encodedBodySize":904,"decodedBodySize":904,"serverTiming":[],"workerTiming":[],"unloadEventStart":92.70500001730397,"unloadEventEnd":92.99500001361594,"domInteractive":1857.465000008233,"domContentLoadedEventStart":1857.5100000016391,"domContentLoadedEventEnd":1858.4050000063144,"domComplete":2425.435000041034,"loadEventStart":2425.5100000300445,"loadEventEnd":2426.465000025928,"type":"reload","redirectCount":0}]',
+    id: 'v1-1607488799211-6774443771292'
+  }
+}
+[2020-12-09T12:56:44.499] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'CLS',
+    value: 0,
+    delta: 0,
+    entries: '[]',
+    id: 'v1-1607488799210-8993712727626'
+  }
+}
+[2020-12-09T12:56:44.606] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'LCP',
+    value: 1923.805,
+    delta: 1923.805,
+    entries: '[{"name":"","entryType":"largest-contentful-paint","startTime":1923.805,"duration":0,"size":6708,"renderTime":1923.805,"loadTime":0,"id":"","url":"","element":{}},{"name":"","entryType":"largest-contentful-paint","startTime":1923.805,"duration":0,"size":6708,"renderTime":1923.805,"loadTime":0,"id":"","url":"","element":{}},{"name":"","entryType":"largest-contentful-paint","startTime":1923.805,"duration":0,"size":6708,"renderTime":1923.805,"loadTime":0,"id":"","url":"","element":{}}]',
+    id: 'v1-1607488799211-6005577425437'
+  }
+}
+[2020-12-09T14:15:05.175] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'TTFB',
+    value: 695.6699999864213,
+    delta: 695.6699999864213,
+    entries: '[{"name":"http://localhost:9528/#/team/edit/35","entryType":"navigation","startTime":0,"duration":2443.154999986291,"initiatorType":"navigation","nextHopProtocol":"http/1.1","workerStart":0,"redirectStart":0,"redirectEnd":0,"fetchStart":5.490000010468066,"domainLookupStart":5.490000010468066,"domainLookupEnd":5.490000010468066,"connectStart":5.490000010468066,"connectEnd":5.490000010468066,"secureConnectionStart":0,"requestStart":10.175000003073364,"responseStart":695.6699999864213,"responseEnd":696.3749999995343,"transferSize":1133,"encodedBodySize":904,"decodedBodySize":904,"serverTiming":[],"workerTiming":[],"unloadEventStart":699.9899999937043,"unloadEventEnd":700.2600000123493,"domInteractive":1616.489999985788,"domContentLoadedEventStart":1616.5400000172667,"domContentLoadedEventEnd":1617.435000021942,"domComplete":2441.495000035502,"loadEventStart":2441.6000000201166,"loadEventEnd":2443.154999986291,"type":"reload","redirectCount":0}]',
+    id: 'v1-1607494503549-7584028402220'
+  }
+}
+[2020-12-09T14:17:02.533] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'TTFB',
+    value: 31.91499999957159,
+    delta: 31.91499999957159,
+    entries: '[{"name":"http://localhost:9528/#/team/edit/35","entryType":"navigation","startTime":0,"duration":2940.200000011828,"initiatorType":"navigation","nextHopProtocol":"http/1.1","workerStart":0,"redirectStart":0,"redirectEnd":0,"fetchStart":7.235000026412308,"domainLookupStart":7.235000026412308,"domainLookupEnd":7.235000026412308,"connectStart":7.235000026412308,"connectEnd":7.235000026412308,"secureConnectionStart":0,"requestStart":28.664999990724027,"responseStart":31.91499999957159,"responseEnd":33.40999997453764,"transferSize":1133,"encodedBodySize":904,"decodedBodySize":904,"serverTiming":[],"workerTiming":[],"unloadEventStart":118.68499999400228,"unloadEventEnd":119.04499999945983,"domInteractive":2347.215000016149,"domContentLoadedEventStart":2347.7350000175647,"domContentLoadedEventEnd":2349.0250000031665,"domComplete":2938.2949999999255,"loadEventStart":2938.3750000270084,"loadEventEnd":2940.200000011828,"type":"reload","redirectCount":0}]',
+    id: 'v1-1607494621032-8600071736911'
+  }
+}
+[2020-12-09T14:28:59.332] [INFO] cheese - {
+  host: 'localhost:3000',
+  title: undefined,
+  curUrl: undefined,
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  origin: 'http://localhost:9528',
+  referer: 'http://localhost:9528/',
+  data: {
+    name: 'CLS',
+    value: 0.08282715079795763,
+    delta: 0.08282715079795763,
+    entries: '[{"name":"","entryType":"layout-shift","startTime":704647.5050000008,"duration":0,"value":0.05555118791325844,"hadRecentInput":false,"lastInputTime":0,"sources":[{"node":null,"previousRect":{"x":220,"y":212,"width":748,"height":66,"top":212,"right":968,"bottom":278,"left":220},"currentRect":{"x":110,"y":106,"width":832,"height":66,"top":106,"right":942,"bottom":172,"left":110}},{"node":null,"previousRect":{"x":220,"y":569,"width":748,"height":102,"top":569,"right":968,"bottom":671,"left":220},"currentRect":{"x":110,"y":463,"width":832,"height":102,"top":463,"right":942,"bottom":565,"left":110}},{"node":null,"previousRect":{"x":220,"y":478,"width":748,"height":90,"top":478,"right":968,"bottom":568,"left":220},"currentRect":{"x":110,"y":372,"width":832,"height":90,"top":372,"right":942,"bottom":462,"left":110}},{"node":null,"previousRect":{"x":220,"y":377,"width":748,"height":41,"top":377,"right":968,"bottom":418,"left":220},"currentRect":{"x":110,"y":271,"width":832,"height":41,"top":271,"right":942,"bottom":312,"left":110}},{"node":null,"previousRect":{"x":220,"y":437,"width":748,"height":41,"top":437,"right":968,"bottom":478,"left":220},"currentRect":{"x":110,"y":331,"width":832,"height":41,"top":331,"right":942,"bottom":372,"left":110}}]},{"name":"","entryType":"layout-shift","startTime":712299.0349999745,"duration":0,"value":0.027208411090108485,"hadRecentInput":false,"lastInputTime":710716.0799999838,"sources":[{"node":null,"previousRect":{"x":111,"y":335,"width":1195,"height":1,"top":335,"right":1306,"bottom":336,"left":111},"currentRect":{"x":111,"y":606,"width":1195,"height":1,"top":606,"right":1306,"bottom":607,"left":111}},{"node":null,"previousRect":{"x":111,"y":250,"width":1195,"height":45,"top":250,"right":1306,"bottom":295,"left":111},"currentRect":{"x":111,"y":385,"width":1195,"height":45,"top":385,"right":1306,"bottom":430,"left":111}},{"node":null,"previousRect":{"x":110,"y":356,"width":1208,"height":32,"top":356,"right":1318,"bottom":388,"left":110},"currentRect":{"x":110,"y":627,"width":1208,"height":32,"top":627,"right":1318,"bottom":659,"left":110}}]},{"name":"","entryType":"layout-shift","startTime":712302.3650000105,"duration":0,"value":0.00006755179459069658,"hadRecentInput":false,"lastInputTime":710716.0799999838,"sources":[{"node":null,"previousRect":{"x":111,"y":335,"width":48,"height":1,"top":335,"right":159,"bottom":336,"left":111},"currentRect":{"x":111,"y":606,"width":48,"height":1,"top":606,"right":159,"bottom":607,"left":111}},{"node":null,"previousRect":{"x":1126,"y":335,"width":180,"height":1,"top":335,"right":1306,"bottom":336,"left":1126},"currentRect":{"x":1126,"y":606,"width":180,"height":1,"top":606,"right":1306,"bottom":607,"left":1126}}]}]',
+    id: 'v1-1607494621031-4739340995834'
+  }
+}
