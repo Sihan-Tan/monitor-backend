@@ -22,7 +22,7 @@ let IndexController = (_dec = (0, _awilixKoa.route)('/test'), _dec2 = (0, _awili
     this.testModel = testModel;
   }
 
-  getError(ctx) {
+  async getError(ctx) {
     const {
       header,
       query: {
@@ -37,10 +37,15 @@ let IndexController = (_dec = (0, _awilixKoa.route)('/test'), _dec2 = (0, _awili
       parseInfo = info;
     }
 
-    this.writeLog(header, parseInfo, header['user-agent']);
+    await this.writeLog(header, parseInfo, header['user-agent']);
+    ctx.body = {
+      code: 0,
+      data: true,
+      msg: '收到'
+    };
   }
 
-  actionList(ctx) {
+  async actionList(ctx) {
     // const data = await this.indexService.getInfo();
     const {
       header,
@@ -58,7 +63,12 @@ let IndexController = (_dec = (0, _awilixKoa.route)('/test'), _dec2 = (0, _awili
       parseBody = body;
     }
 
-    this.writeLog(header, parseBody, header['user-agent']);
+    await this.writeLog(header, parseBody, header['user-agent']);
+    ctx.body = {
+      code: 0,
+      data: true,
+      msg: '收到'
+    };
   } // 收集输入，写入日志
 
 

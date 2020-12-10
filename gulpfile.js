@@ -3,6 +3,7 @@ const copy = require('gulp-copy');
 const babel = require('gulp-babel');
 const eslint = require('gulp-eslint');
 const del = require('del');
+const replace = require('gulp-replace');
 
 const entry = ['src/**/*', '!src/logs/**'];
 const lintEntry = ['src/**/*.ts'];
@@ -34,6 +35,7 @@ function buildProd() {
         ignore: cleanEntry,
       })
     )
+    .pipe(replace('.ts', '.js'))
     .pipe(gulp.dest('dist'));
 }
 

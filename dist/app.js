@@ -30,7 +30,6 @@ const config = require('@config').default;
 
 const ErrorHandler = require('@middleware/ErrorHandler').default;
 
-console.log(ErrorHandler.error);
 const {
   port
 } = config;
@@ -55,7 +54,7 @@ app.use((0, _koaBodyparser.default)({
   enableTypes: ['json', 'text', 'form']
 }));
 const container = (0, _awilix.createContainer)();
-container.loadModules([`${__dirname}/models/*.ts`], {
+container.loadModules([`${__dirname}/models/*.js`], {
   formatName: 'camelCase',
   resolverOptions: {
     lifetime: _awilix.Lifetime.SCOPED
@@ -63,7 +62,7 @@ container.loadModules([`${__dirname}/models/*.ts`], {
 });
 app.use((0, _awilixKoa.scopePerRequest)(container));
 ErrorHandler.error(app, logger);
-app.use((0, _awilixKoa.loadControllers)(`${__dirname}/routes/*.ts`));
+app.use((0, _awilixKoa.loadControllers)(`${__dirname}/routes/*.js`));
 app.listen(port, () => {
   console.log(`server start at localhost:${port}`);
 });

@@ -12,7 +12,7 @@ class IndexController {
 
   @route('/')
   @GET()
-  getError(ctx: Router.IRouterContext) {
+  async getError(ctx: Router.IRouterContext) {
     const { header, query: { info } } = ctx.request;
     let parseInfo;
     try {
@@ -20,12 +20,17 @@ class IndexController {
     } catch {
       parseInfo = info;
     }
-    this.writeLog(header, parseInfo, header['user-agent']);
+    await this.writeLog(header, parseInfo, header['user-agent']);
+    ctx.body = {
+      code: 0,
+      data: true,
+      msg: '收到',
+    };
   }
 
   @route('/')
   @POST()
-  actionList(ctx: Router.IRouterContext) {
+  async actionList(ctx: Router.IRouterContext) {
     // const data = await this.indexService.getInfo();
     const { header, body } = ctx.request;
     let parseBody;
@@ -38,7 +43,12 @@ class IndexController {
     } else {
       parseBody = body;
     }
-    this.writeLog(header, parseBody, header['user-agent']);
+    await this.writeLog(header, parseBody, header['user-agent']);
+    ctx.body = {
+      code: 0,
+      data: true,
+      msg: '收到',
+    };
   }
 
   // 收集输入，写入日志

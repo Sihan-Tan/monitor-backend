@@ -6,14 +6,22 @@ class IndexController {
   @GET()
   actionList(ctx: any) {
     // const data = await this.indexService.getInfo();
-    ctx.body = '服务器连接成功';
+    ctx.body = {
+      code: 0,
+      data: {},
+      msg: '服务器连接成功',
+    };
   }
 
   @route('/')
   @POST()
   postList(ctx: any) {
     // const data = await this.indexService.getInfo();
-    ctx.body = '服务器连接成功';
+    ctx.body = {
+      code: 0,
+      data: {},
+      msg: '服务器连接成功',
+    };
   }
 }
 

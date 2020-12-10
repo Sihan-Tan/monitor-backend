@@ -14,12 +14,20 @@ function _applyDecoratedDescriptor(target, property, decorators, descriptor, con
 let IndexController = (_dec = (0, _awilixKoa.route)('/'), _dec2 = (0, _awilixKoa.route)('/'), _dec3 = (0, _awilixKoa.GET)(), _dec4 = (0, _awilixKoa.route)('/'), _dec5 = (0, _awilixKoa.POST)(), _dec(_class = (_class2 = class IndexController {
   actionList(ctx) {
     // const data = await this.indexService.getInfo();
-    ctx.body = '服务器连接成功';
+    ctx.body = {
+      code: 0,
+      data: {},
+      msg: '服务器连接成功'
+    };
   }
 
   postList(ctx) {
     // const data = await this.indexService.getInfo();
-    ctx.body = '服务器连接成功';
+    ctx.body = {
+      code: 0,
+      data: {},
+      msg: '服务器连接成功'
+    };
   }
 
 }, (_applyDecoratedDescriptor(_class2.prototype, "actionList", [_dec2, _dec3], Object.getOwnPropertyDescriptor(_class2.prototype, "actionList"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "postList", [_dec4, _dec5], Object.getOwnPropertyDescriptor(_class2.prototype, "postList"), _class2.prototype)), _class2)) || _class);

@@ -2,8 +2,8 @@
   "name": "monitor",
   "script": "app.js",
   "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
-  "out_file": "log/monitor.stdout.log",
+  "out_file": "logs/pm2.log",
   "watch": true,
-  "instances": "4",
+  "instances": "2",
   "exec_mode": "cluster"
 }

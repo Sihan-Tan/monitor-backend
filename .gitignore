@@ -1,3 +1,7 @@
 node_modules
 shell.js
 src/logs
+.DS_Store
+package-lock.json
+dist/logs
+src/.DS_Store
